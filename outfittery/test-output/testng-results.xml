@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="200" started-at="2016-10-07T09:23:51Z" finished-at="2016-10-07T09:23:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="200" started-at="2016-10-07T09:23:51Z" finished-at="2016-10-07T09:23:51Z">
+      <class name="automation.outfittery.Tests">
+        <test-method status="FAIL" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:automation.outfittery.Tests@692f203f]" name="initializeTestBaseSetup" is-config="true" duration-ms="0" started-at="2016-10-07T14:53:51Z" finished-at="2016-10-07T14:53:51Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserType' is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in C:\Users\gaurav\AppData\Local\Temp\testng-eclipse-1264264863\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserType' is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in C:\Users\gaurav\AppData\Local\Temp\testng-eclipse-1264264863\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:automation.outfittery.Tests@692f203f]" name="setup" is-config="true" duration-ms="0" started-at="2016-10-07T14:53:51Z" finished-at="2016-10-07T14:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="customerLogin()[pri:0, instance:automation.outfittery.Tests@692f203f]" name="customerLogin" duration-ms="46" started-at="2016-10-07T14:53:51Z" finished-at="2016-10-07T14:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLogin -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:automation.outfittery.Tests@692f203f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-10-07T14:53:51Z" finished-at="2016-10-07T14:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:automation.outfittery.Tests@692f203f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-10-07T14:53:51Z" finished-at="2016-10-07T14:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.outfittery.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
